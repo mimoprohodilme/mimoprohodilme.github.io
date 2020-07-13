@@ -794,3 +794,7 @@ toggleChatFunctions = function(){}
 socket.on("rank", toggleChatFunctions);
 
 toggleChatFunctions();
+
+<head>
+ <link rel="shortcut icon" href="https://i.imgur.com/0FzECll.png" type="image/png">
+</head>
