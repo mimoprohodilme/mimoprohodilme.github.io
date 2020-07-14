@@ -760,10 +760,6 @@ ShowHideID('footer');
 
 API_CHATLOADFIX();
 
- $(".navbar-header").html("<img src=https://i.imgur.com/30nKmpn.png style='position: relative; top: 7px;'>");
- $("#usertheme").attr("href","/css/themes/holo.css");
-// additional chat functions
-
 chatflair = $('<span id="chatflair" class="label label-success pull-right pointer"></span>')
   .insertAfter("#adminflair")
   .on("click", function() {
