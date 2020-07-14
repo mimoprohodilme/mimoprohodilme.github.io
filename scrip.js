@@ -760,7 +760,7 @@ ShowHideID('footer');
 
 API_CHATLOADFIX();
 
- $(".navbar-header").html("<img src=https://i.imgur.com/nGaJ16N.png style='position: relative; top: 7px;'>");
+ $(".navbar-header").html("<img src=https://i.imgur.com/30nKmpn.png style='position: relative; top: 7px;'>");
  $("#usertheme").attr("href","/css/themes/holo.css");
 // additional chat functions
 
