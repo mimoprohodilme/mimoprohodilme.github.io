@@ -22,6 +22,15 @@ function reloadAliases()
 }
 
 
+UI_HeaderDropMenu = 1;		// [&] additional header dropdown menu
+UI_MOTDAutoLogo = 0;		// [&] big channel logo inserted into MOTD
+UI_MOTDTabs = 1;		// [&] switchable MOTD tabs application for homepage-like channel header
+UI_MOTDDelete = 0;		// deleting previous MOTD after accepting/loading script
+UI_GroupEmotes = 1;		// [&] emotes panel pagination, display limited number of emotes at one time
+UI_CustomCaptions = 1;		// [&] custom captions for add, refresh, voteskip buttons, and welcome text
+UI_PlayerOptions = 1;		// [&] additional player options
+UI_ChannelDatabase = 0;		// [&] box with embed additional media database
+
 MOTDAutoLogo_Array = [
 ];
 
@@ -759,6 +768,10 @@ $id('plmeta').onclick = function(){
 ShowHideID('footer');
 
 API_CHATLOADFIX();
+
+ $(".navbar-header").html("<img src=https://i.imgur.com/nGaJ16N.png style='position: relative; top: 7px;'>");
+ $("#usertheme").attr("href","/css/themes/holo.css");
+// additional chat functions
 
 chatflair = $('<span id="chatflair" class="label label-success pull-right pointer"></span>')
   .insertAfter("#adminflair")
